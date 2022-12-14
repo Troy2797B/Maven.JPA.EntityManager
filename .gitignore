@@ -81,4 +81,7 @@ fabric.properties
 # Sonarlint plugin
 .idea/sonarlint
 
+# My persistence layer?
+/Users/troyanna/Dev/Projects/Labs/Maven.JPA.EntityManager/src/main/resources/META-INF_/persistence.xml
+
 # End of https://www.gitignore.io/api/intellij
