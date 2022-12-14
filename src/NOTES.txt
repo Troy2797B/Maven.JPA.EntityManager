@@ -1,0 +1,11 @@
+Left off on populating database and making persistence xml.
+
+You can add classes to persistence file if they are not annotated:
+
+By default, your JPA persistence-unit includes all annotated managed 
+classes found in its root. If you want to include any classes that are 
+located somewhere else, you can either reference them explicitly or include
+all classes from a jar file
+
+Create services that are composed of an _EntityManager_ and has an interface
+ for performing CRUD operations for managing _Entities_ with you database.
